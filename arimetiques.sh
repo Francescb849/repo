@@ -11,3 +11,5 @@ SUMA=$((X+Y))
 echo "${X}+${Y}=${SUMA}"
 RESTA=$((X-Y))
 echo "${X}-${Y}=${RESTA}"
+PRODUCTE=$((X*Y))
+echo "${X}*${Y}=${PRODUCTE}"
