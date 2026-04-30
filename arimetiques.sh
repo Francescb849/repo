@@ -13,3 +13,5 @@ RESTA=$((X-Y))
 echo "${X}-${Y}=${RESTA}"
 PRODUCTE=$((X*Y))
 echo "${X}*${Y}=${PRODUCTE}"
+DIVISIO=$((X/Y))
+echo "${X}/${Y}=${DIVISIO}"
