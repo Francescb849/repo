@@ -10,4 +10,8 @@ echo "Nom del script ${SCRIPT_NAME}"
 echo "Primer paràmetre: ${1}"
 USER_NAME=${1}
 echo "USER_NAME: ${USER_NAME}"
-echo "Segon paràmetre: ${2}"
+#desplaçar els paràmetres a l'esquerra
+shift 
+
+NOM_COMPLET="${*}"
+echo "NOM COMPLET: ${NOM_COMPLET}"
